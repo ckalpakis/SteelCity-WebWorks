@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    
+    <!-- Navigation Bar -->
+   <header class="text-gray-400 bg-gray-900 body-font">
+  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+    <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+      <a href="#whatwedo" class="mr-5 hover:text-white">What We Do</a>
+      <a href="#process" class="mr-5 hover:text-white">Our Process</a>
+      <a href="#pricing" class="mr-5 hover:text-white">Pricing</a>
+      <a href="#about" class="hover:text-white">About Me</a>
+    </nav>
+    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
+      <Image src="./assets/steelcity_logo.svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+      </Image>
+      <span class="ml-3 text-xl xl:block lg:hidden">Steel City Web Works</span>
+    </a>
+    <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+      <button onclick="location.href='#contact'" class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Contact Us
+  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+    <path d="M5 12h14M12 5l7 7-7 7"></path>
+  </svg>
+</button>
+
+    </div>
+  </div>
+</header>
+  <!-- Hero  -->
+<div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="./assets/bridgewebp.webp" alt="Background Image" class="object-cover object-center w-full h-full" />
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+  </div>
+  
+  <div class="relative z-10 flex flex-col justify-center items-center h-full text-center">
+    <h1 class="text-5xl font-bold leading-tight mb-4">Where Our Sites Are Strong as Steel</h1>
+    <p class="text-lg text-gray-300 mb-8">No</Strong> page builders or WordPress - Our sites are  <Strong class="text-white">100% hand-coded</Strong> with
+            superior speed and results. Fully managed by us, the professionals.
+            Starting at $199/mo.</p>
+    <a href="#whatwedo" class="bg-yellow-400 text-gray-900 hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg">Get Started</a>
+  </div>
+</div>
+
+
+    <!-- What We Do  -->
+    <section id="whatwedo" class="text-gray-400 bg-gray-900 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="text-center mb-20">
+          <h1
+            class="sm:text-6xl text-2xl font-medium text-center title-font text-white mb-4"
+          >
+            What <Strong class="text-amber-300">We</Strong> Do
+          <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            We specialize in small business web design and management for clients in the United States. Every bit of code has been written by hand to ensure top-tier performance. This brings many more customers to your site which turns into revenue for your business. 
+          </p>
+        </div>
+        <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white"
+                >Manage Site For You</span
+              >
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white"
+                >Fully Responsive</span
+              >
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white"
+                >Mobile Optimization</span
+              >
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white"
+                >Google Optimization</span
+              >
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white"
+                >Fully Customizable</span
+              >
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-800 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-yellow-400 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                <path d="M22 4L12 14.01l-3-3"></path>
+              </svg>
+              <span class="title-font font-medium text-white"
+                >95+/100 Site Speed</span
+              >
+            </div>
+          </div>
+        </div>
+        <button
+          onclick="location.href='#contact'" class="flex mx-auto mt-16 text-white bg-yellow-500 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-600 rounded text-lg"
+        >
+          Contact Us!
+        </button>
+      </div>
+    </section>
+    <!-- The Process  -->
+    <section id="process"class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex flex-wrap">
+    <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">1</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-white mb-1 text-xl">Step 1</h2>
+          <p class="leading-relaxed">We will make a contract that keeps us both protected. Once that's signed you pay for the first month and enroll in auto-pay.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">2</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-white mb-1 text-xl">Step 2</h2>
+          <p class="leading-relaxed">We send a questionaire regarding your business and what you do in order to gain knowledge about the content needed for your site. We will then send potential designs that will look good for your business.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">3</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <circle cx="12" cy="5" r="3"></circle>
+            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-white mb-1 text-xl">Step 3</h2>
+          <p class="leading-relaxed">Take the questionnaire answer and designs that you liked and have our designers make something unique for you. Then we go over the design together on a video chat to make any final changes.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+      <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+        <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+      </div>
+      <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-yellow-500 text-white relative z-10 title-font font-medium text-sm">4</div>
+      <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+        <div class="flex-shrink-0 w-24 h-24 bg-gray-800 text-yellow-400 rounded-full inline-flex items-center justify-center">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-12 h-12" viewBox="0 0 24 24">
+            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </div>
+        <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+          <h2 class="font-medium title-font text-white mb-1 text-xl">Step 4</h2>
+          <p class="leading-relaxed">Once the final design is approved, we start coding. Once final site is coded, a demo link will be provided before deployment. Once you approve, we make final optimizations and deploy the site online!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <!-- Pricing -->
+    <section id="pricing" class="text-gray-400 bg-gray-900 body-font overflow-hidden">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-white">Pricing</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">We offer two payment plans here at Steel City Web Works!</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border-2 border-gray-700 flex flex-col relative overflow-hidden">
+          <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">One-Time Payment for a <Strong class="text-white">LIFETIME</Strong></h2>
+          <h1 class="text-5xl text-white pb-4 mb-4 border-b border-gray-800 leading-none">$3,500</h1>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Hosting Fees Included
+          </p>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>24/7 Customer Service
+          </p>
+         <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Unlimited Edits
+          </p>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Web Design & Development
+          </p>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>100 Google Page Speed & Analytics
+          </p>
+          
+          
+          <p class="text-xs text-gray-400 mt-3">You receive all of our included services for a <Strong class="text-white">LIFETIME</Strong>.</p>
+        </div>
+      </div>
+      <div class="p-4 xl:w-1/2 md:w-1/2 w-full">
+        <div class="h-full p-6 rounded-lg border-2 border-yellow-500 flex flex-col relative overflow-hidden">
+          <span class="bg-yellow-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">POPULAR</span>
+          <h2 class="text-sm tracking-widest text-gray-400 title-font mb-1 font-medium">Recurring Payment</h2>
+          <h1 class="text-5xl text-white leading-none flex items-center pb-4 mb-4 border-b border-gray-800">
+            <span>$199</span>
+            <span class="text-lg ml-1 font-normal text-gray-400">/mo</span>
+          </h1>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>$0 Down For 5 Page Business Website
+          </p>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>12-Month Minimum Contract
+          </p>
+          <p class="flex items-center text-gray-400 mb-2">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Custom Pricing Required for a Bigger Scope of Work
+          </p>
+          <p class="flex items-center text-gray-400 mb-6">
+            <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-800 text-gray-500 rounded-full flex-shrink-0">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" class="w-3 h-3" viewBox="0 0 24 24">
+                <path d="M20 6L9 17l-5-5"></path>
+              </svg>
+            </span>Own Your Own Domain, Content, Listing, and Profiles
+          </p>
+          <p class="text-xs text-gray-400 mt-3">After 12 months is over you may cancel at any time.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <!-- About me  -->
+    <section id="about" class="text-gray-400 bg-gray-900 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="./assets/about-pic.png">
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">About Me</h1>
+      <p class="leading-relaxed mb-8">Hey! I am Carson K. I am the owner and the developer here at Steel City Web Works. I am currently a student at Penn State University studying Computer Science. I have a strong passion for web development and a long background in entrepreneurship which pushes me every day at Steel City Web Works! I've been creating successful web apps for about 5 years and have those methods down to a science at this point. I look forward to working together!</p>
+      <div class="flex justify-center">
+        
+        <button onclick="location.href='#contact'" class="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">Contact Me!</button>
+      </div>
+    </div>
+  </div>
+    </section>
+    <!-- Contact  -->
+<section class="text-gray-400 body-font bg-gray-900">
+  <div class="container flex flex-wrap px-5 py-24 mx-auto items-center">
+    <div class="text-center md:w-1/2 md:pr-12 md:py-8 md:border-r md:border-b-0 md:mb-0 mb-10 pb-10 border-b border-gray-800">
+      <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">How To Contact Us!</h1>
+      <p class="leading-relaxed text-base">The best way to reach us is via email which is linked to the right!</p>
+      <a href="#whatwedo" class="text-yellow-400 inline-flex items-center mt-4">Learn More
+        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+          <path d="M5 12h14M12 5l7 7-7 7"></path>
+        </svg>
+      </a>
+    </div>
+    <div class="flex flex-col md:w-1/2 md:pl-12">
+      <h2 class="title-font font-semibold text-white tracking-wider text-lg mb-3">EMAIL ADDRESS</h2>
+      <nav class="flex flex-wrap list-none -mb-1">
+        <li class="lg:w-1/3 mb-1 w-1/2">
+          <a class="hover:text-yellow-300 text-xl">steelcitywebworks@gmail.com</a>
+        </li>
+        
+      </nav>
+    </div>
+  </div>
+</section>
+    <!-- Footer  -->
+    <footer class="text-gray-400 bg-gray-900 body-font">
+  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+    <div class="lg:w-1/2 w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
+        <svg src="./assets/steelcity_logo.svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-yellow-500 rounded-full" viewBox="0 0 24 24">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+        </svg>
+        <span class="ml-3 text-xl">Steel City Web Works</span>
+      </a>
+      <p class="mt-2 text-sm text-gray-500">We handle the web works, so you don't have to.</p>
+    </div>
+    <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+      
+      <div class="lg:w-1/2 md:w-1/2 w-full px-4">
+        <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">Navigation</h2>
+        <nav class="list-none mb-10">
+          <li>
+            <a href="#whatwedo"class="text-gray-400 hover:text-white">What We Do</a>
+          </li>
+          <li>
+            <a href="#process" class="text-gray-400 hover:text-white">Our Process</a>
+          </li>
+          <li>
+            <a href="#pricing" class="text-gray-400 hover:text-white">Pricing</a>
+          </li>
+          <li>
+            <a href="#about" class="text-gray-400 hover:text-white">About Me</a>
+          </li>
+        </nav>
+      </div>
+      
+      
+    </div>
+  </div>
+  
+    </div>
+  </div>
+</footer>
+
+    <script src="./node_modules/preline/dist/preline.js"></script>
+  </body>
+</html>
